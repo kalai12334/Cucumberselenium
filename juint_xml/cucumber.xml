@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.067">
+    <testcase classname="Free CRM feature" name="Free CRM login test" time="32.768">
+        <system-out><![CDATA[Given User is already on loginpage..........................................passed
+When title of login page in Free CRM........................................passed
+Then user enter "skv.sdet@gmail.com" and user enter "Namakkal@123"..........passed
+And user clicks on login button.............................................passed
+And user is on homepage.....................................................passed
+When user navigate to contact page..........................................passed
+Then user trying adding new contact.........................................passed
+Then user enters "kalai" and "subbu" and "Manager"..........................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
