@@ -104,11 +104,7 @@ import junit.framework.Assert;
 		System.out.println("saving the details");
 	   
   }
-  @Then("close the browser")
-  public void close_the_browser() {
-	  
-	  driver.quit();
-  }
+  
 
 
 
