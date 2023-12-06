@@ -89,7 +89,9 @@ import junit.framework.Assert;
   }// edited on Main branch with ballon
   
 
-  
+  public void test() {
+	  System.out.println("test");
+  }
 
 
   }
