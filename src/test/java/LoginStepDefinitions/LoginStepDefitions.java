@@ -103,7 +103,6 @@ import junit.framework.Assert;
 		  System.out.println("Mangaer position entered");
 		  Thread.sleep(3000);
 		 driver.findElement(By.xpath("//button[normalize-space()='Save']")).click();
-		 System.out.println("testing main branch");
 		 System.out.println("This is main brnach code");
 		
 	   
