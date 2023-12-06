@@ -103,15 +103,12 @@ import junit.framework.Assert;
 		  System.out.println("Mangaer position entered");
 		  Thread.sleep(3000);
 		 driver.findElement(By.xpath("//button[normalize-space()='Save']")).click();
-		System.out.println("buuton clicked");
-		System.out.println("___________________");
-		System.out.println("___________________");
+		System.out.println("buton clicked");
+		
 	   
   }
   
-   //working SDET1
-   
-   //SDET2
+
 
   }
 
