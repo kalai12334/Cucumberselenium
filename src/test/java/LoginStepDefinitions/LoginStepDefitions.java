@@ -86,7 +86,7 @@ import junit.framework.Assert;
 	 act.doubleClick(ele).perform();
 	  Thread.sleep(3000);
 	// driver.quit();
-  }// edited on Main branch
+  }
   
 
   
