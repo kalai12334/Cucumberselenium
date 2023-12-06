@@ -42,10 +42,7 @@ import junit.framework.Assert;
 	  
   }
   
-  @Then("user clicks on login button") public void
-  user_clicks_on_login_button() {
-  driver.findElement(By.xpath("//*[@id=\"ui\"]/div/div/form/div/div[3]")).click();
-  }
+  
   
  
   @Then("user enter {string} and user enter {string}")
@@ -91,7 +88,8 @@ import junit.framework.Assert;
 	// driver.quit();
   }
   
-   
+
+  
 
 
   }
