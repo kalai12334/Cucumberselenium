@@ -1,6 +1,8 @@
 
   package LoginStepDefinitions;
   
+  //test
+  
   import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -104,7 +106,7 @@ import junit.framework.Assert;
 		System.out.println("saving the details");
 	   
   }
-   
+   //public testing code
 
   }
 
