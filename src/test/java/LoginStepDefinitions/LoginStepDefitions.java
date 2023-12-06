@@ -91,23 +91,7 @@ import junit.framework.Assert;
 	// driver.quit();
   }
   
-   @Then("user enters {string} and {string} and {string}")
-  public void user_enters_and_and(String firstname , String lastname, String position) throws InterruptedException {
-	   Thread.sleep(3000);
-	  	  driver.findElement(By.xpath("//input[@name='first_name']")).sendKeys("kalaia");
-	  	  System.out.println("Firstname entered");
-	  	  Thread.sleep(3000);
-		  driver.findElement(By.xpath("//input[@name='last_name']")).sendKeys("subbus");
-		  System.out.println("Last name entered");
-		  driver.findElement(By.xpath("//input[@name='position']")).sendKeys("Manager");
-		  System.out.println("Mangaer position entered");
-		  Thread.sleep(3000);
-		 driver.findElement(By.xpath("//button[normalize-space()='Save']")).click();
-		 System.out.println("This is main brnach code");
-		
-	   
-  }
-  
+   
 
 
   }
