@@ -1,7 +1,7 @@
 
   package LoginStepDefinitions;
   
-  //test
+//Login step defintion file added
   
   import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
